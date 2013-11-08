@@ -16,66 +16,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.newfantasticc"
-       name="Fantasti.cc (Adult)"
-       version="2.3.9"
-       provider-name="xbmc-adult">
-    <requires>
-        <import addon="xbmc.python" version="1.0"/>
-        <import addon="script.module.pil"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <license>GPL 2.0</license>
-        <summary lang="en">Fantasti.cc (Adult) -  Browse videos from a site that aggregates the best porn videos online using the votes of users as the deciding factor</summary>
-        <description lang="en">Browse collections (user designed categories) as well as the most popular videos today/week/month as decided by the users of the site</description>
-    </extension>
-</addon>
-
-<addon
-  id="plugin.video.newvideodevil"
-  version="1.7.67"
-  name="VideoDevil (Adult)"
-  provider-name="xbmc-adult">
-  <requires>
-   <import addon="xbmc.python" version="1.0"/>
-  </requires>
-  <extension
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Play videos from different adult streaming sites</summary>
-    <description>This addon plays videos from YouPorn, Tube8, Boysfood, MoviesAnd, PornoTube, xHamster, KeezMovies and some other adult streaming sites. It contains explicit adult material. You may only view this addon if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content. If you do not meet these requirements, then you do not have permission to use this addon.</description>
-    <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.newyoujizz"
-       name="YouJizz.com (Adult)"
-       version="1.0.6"
-       provider-name="xbmcadult">
-    <requires>
-        <import addon="xbmc.python" version="1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <license>GPL 2.0</license>
-        <summary lang="en">YouJizz.com</summary>
-        <description lang="en">****ADULT CONTENT***** Watch erotic and sexy videos from YouJizz.com</description>
-    </extension>
-</addon>
-
 <addon id="repository.eleazar" name="Eleazar's XBMC Add-on Repository" version="1.0" provider-name="eleazar">
 	<extension point="xbmc.addon.repository" name="Eleazar's XBMC Addon Repository">
 		<info compressed="false">http://github.com/eleazarcoding/eleazar-xbmc/raw/master/addons.xml</info>
