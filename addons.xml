@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.1channel-proxifier" name="1Channel Proxifier" version="1.0.1" provider-name="eleazar">
+<addon id="plugin.video.1channel-proxifier" name="1Channel Proxifier" version="1.0.2" provider-name="eleazarcoding">
   <requires>
     <import addon="xbmc.python" version="2.0"/>
     <import addon="plugin.video.1channel" version="2.0.2"/>
@@ -10,12 +10,14 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">1Channel Proxifier</summary>
-    <description lang="en">This temporary fix will enable immediate use of the PrimewireProxy.co.uk service for 1Channel users blocked due to censorship in the United Kingdom, allowing you to once again use 1Channel freely.</description>
+    <description lang="en">This temporary fix will enable immediate use of the PrimewireProxy.co.uk service for 1Channel users blocked due to censorship in the United Kingdom, allowing you to once again use 1Channel freely. Please visit www.xbmchub.com for assistance with this add-on.</description>
     <platform>all</platform>
+    <forum>http://www.xbmchub.com/forums/official-xbmc-hub-repo/</forum>
+    <website>http://www.xbmchub.com/</website>
   </extension>
 </addon>
 
-<addon id="plugin.video.filmontv" name="FilmOn" version="1.1" provider-name="FilmOn.TV Networks Inc">
+<addon id="plugin.video.filmontv" name="FilmOn" version="1.2" provider-name="FilmOn.TV Networks Inc">
   <requires>
     <import addon="xbmc.python" version="2.0"/>
     <import addon="script.module.t0mm0.common" version="1.1.0"/>
@@ -26,12 +28,14 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">FilmOn</summary>
     <language>en de fr es it ru</language>
-    <description lang="en">FilmOn.com is an internet based television provider owned by FilmOn.TV Networks Inc. FilmOn.TV Networks was founded by Alki David in 2006.FilmOn.com subscription packages include access to over 120 streaming TV channels (mostly in English language) in addition to premium FilmOn.com Movie channels and pay-per-view channels</description>
+    <description lang="en">FilmOn.com is an internet based television provider owned by FilmOn.TV Networks Inc. FilmOn.TV Networks was founded by Alki David in 2006.FilmOn.com subscription packages include access to over 120 streaming TV channels (mostly in English language) in addition to premium FilmOn.com Movie channels and pay-per-view channels. Please visit www.xbmchub.com for assistance with this add-on.</description>
     <platform>all</platform>
+    <forum>http://www.xbmchub.com/forums/official-xbmc-hub-repo/</forum>
+    <website>http://www.xbmchub.com/</website>
   </extension>
 </addon>
 
-<addon id="repository.eleazar" name="Eleazar's XBMC Add-on Repository" version="1.0" provider-name="eleazar">
+<addon id="repository.eleazar" name="Eleazar's XBMC Add-on Repository" version="1.0" provider-name="eleazarcoding">
 	<extension point="xbmc.addon.repository" name="Eleazar's XBMC Addon Repository">
 		<info compressed="false">http://github.com/eleazarcoding/eleazar-xbmc/raw/master/addons.xml</info>
 		<checksum>http://github.com/eleazarcoding/eleazar-xbmc/raw/master/addons.xml.md5</checksum>
@@ -39,8 +43,10 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Eleazar's XBMC Add-on Repository</summary>
-		<description>Eleazar's XBMC Add-on Repository</description>
+		<description>Eleazar's XBMC Add-on Repository. Please visit www.xbmchub.com for assistance with this add-on.</description>
 		<platform>all</platform>
+		<forum>http://www.xbmchub.com/forums/eleazars-xbmc-add-repository/</forum>
+		<website>http://www.xbmchub.com/</website>
 	</extension>
 </addon>
 </addons>
