@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.video.1channel-proxifier" name="1Channel Proxifier" version="1.0.0" provider-name="eleazar">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="plugin.video.1channel" version="2.0.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">1Channel Proxifier</summary>
+    <description lang="en">This temporary fix will enable immediate use of the PrimewireProxy.co.uk service for 1Channel users blocked due to censorship in the United Kingdom, allowing you to once again use 1Channel freely.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.filmontv" name="FilmOn" version="1.1" provider-name="FilmOn.TV Networks Inc">
   <requires>
     <import addon="xbmc.python" version="2.0"/>
