@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.1channel-proxifier" name="1Channel Proxifier" version="1.0.2" provider-name="eleazarcoding">
+<addon id="plugin.video.1channel-proxifier" name="1Channel Proxifier" version="1.0.3" provider-name="eleazarcoding">
   <requires>
     <import addon="xbmc.python" version="2.0"/>
     <import addon="plugin.video.1channel" version="2.0.2"/>
